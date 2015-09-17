@@ -100,8 +100,6 @@ if (typeof jQuery === 'undefined') {
 
   Alert.TRANSITION_DURATION = 150
 
-  Alert.TRANSITION_DURATION = 150
-
   Alert.prototype.close = function (e) {
     var $this    = $(this)
     var selector = $this.attr('data-target')
@@ -327,8 +325,6 @@ if (typeof jQuery === 'undefined') {
   }
 
   Carousel.VERSION  = '3.3.5'
-
-  Carousel.TRANSITION_DURATION = 600
 
   Carousel.TRANSITION_DURATION = 600
 
@@ -566,8 +562,6 @@ if (typeof jQuery === 'undefined') {
   }
 
   Collapse.VERSION  = '3.3.5'
-
-  Collapse.TRANSITION_DURATION = 350
 
   Collapse.TRANSITION_DURATION = 350
 
@@ -954,9 +948,6 @@ if (typeof jQuery === 'undefined') {
   Modal.TRANSITION_DURATION = 300
   Modal.BACKDROP_TRANSITION_DURATION = 150
 
-  Modal.TRANSITION_DURATION = 300
-  Modal.BACKDROP_TRANSITION_DURATION = 150
-
   Modal.DEFAULTS = {
     backdrop: true,
     keyboard: true,
@@ -1284,8 +1275,6 @@ if (typeof jQuery === 'undefined') {
   }
 
   Tooltip.VERSION  = '3.3.5'
-
-  Tooltip.TRANSITION_DURATION = 150
 
   Tooltip.TRANSITION_DURATION = 150
 
@@ -2076,8 +2065,6 @@ if (typeof jQuery === 'undefined') {
   }
 
   Tab.VERSION = '3.3.5'
-
-  Tab.TRANSITION_DURATION = 150
 
   Tab.TRANSITION_DURATION = 150
 
