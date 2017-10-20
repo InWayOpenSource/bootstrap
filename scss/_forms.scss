@@ -257,7 +257,7 @@ select.form-control-lg {
 // server side validation.
 
 @include form-validation-state("valid", $form-feedback-valid-color);
-@include form-validation-state("invalid", $form-feedback-invalid-color);
+@include form-validation-state("invalid", $form-feedback-invalid-color, !important);
 
 // Inline forms
 //

@@ -26,7 +26,7 @@
 }
 
 
-@mixin form-validation-state($state, $color) {
+@mixin form-validation-state($state, $color, $important:"") {
 
   .#{$state}-feedback {
     display: none;
@@ -54,10 +54,10 @@
   .custom-select {
     .was-validated &:#{$state},
     &.is-#{$state} {
-      border-color: $color;
+      border-color: $color $important;
 
       &:focus {
-        box-shadow: 0 0 0 .2rem rgba($color,.25);
+        box-shadow: 0 0 0 .2rem rgba($color,.25) $important;
       }
 
       ~ .#{$state}-feedback,
